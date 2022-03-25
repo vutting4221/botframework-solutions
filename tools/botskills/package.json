@@ -13,7 +13,9 @@
     "lint-fix": "eslint --fix ./src/**/*.ts",
     "test": "mocha",
     "coverage": "nyc mocha",
-    "test-coverage-ci": "nyc --reporter=cobertura mocha --reporter mocha-junit-reporter"
+    "test-coverage-ci": "nyc --reporter=cobertura mocha --reporter mocha-junit-reporter",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "directories": {
     "lib": "lib"
@@ -41,7 +43,8 @@
     "dotnet-2.1": "^2.1.1003",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "semver": "^6.0.0"
+    "semver": "^6.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/get-stdin": "^5.0.1",
@@ -61,5 +64,6 @@
   "env": {
     "mocha": true,
     "node": true
-  }
+  },
+  "snyk": true
 }
