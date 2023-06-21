@@ -41,7 +41,7 @@
     "dotnet-2.1": "^2.1.1003",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
-    "semver": "^6.0.0"
+    "semver": "^7.5.2"
   },
   "devDependencies": {
     "@types/get-stdin": "^5.0.1",
