@@ -19,10 +19,10 @@
         "test-coverage-ci": "nyc --reporter=cobertura mocha --reporter mocha-junit-reporter"
     },
     "dependencies": {
-        "botbuilder": "^4.9.2",
+        "botbuilder": "^4.21.4",
         "botbuilder-ai": "^4.9.2",
         "botbuilder-applicationinsights": "^4.9.2",
-        "botbuilder-azure": "^4.9.2",
+        "botbuilder-azure": "^4.21.4",
         "botbuilder-dialogs": "^4.9.2",
         "bot-solutions": "^1.0.0",
         "botframework-config": "^4.9.2",
