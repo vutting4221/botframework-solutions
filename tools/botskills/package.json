@@ -40,7 +40,7 @@
     "commander": "^2.20.0",
     "dotnet-2.1": "^2.1.1003",
     "request": "^2.88.0",
-    "request-promise-native": "^1.0.7",
+    "request-promise-native": "^1.0.9",
     "semver": "^6.0.0"
   },
   "devDependencies": {
